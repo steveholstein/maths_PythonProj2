@@ -24,27 +24,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Mathcode2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Mathcode3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Mathtest1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.mathcode3_HTML1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.mathcode4_latex1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.mathcode4_latex1HTML.executor&quot;: &quot;Run&quot;,
-    &quot;Python.mathscode4.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/hello/PycharmProjects/Maths_PythonProj1&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Mathcode2.executor": "Run",
+    "Python.Mathcode3.executor": "Run",
+    "Python.Mathtest1.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.mathcode3_HTML1.executor": "Run",
+    "Python.mathcode4_latex1.executor": "Run",
+    "Python.mathcode4_latex1HTML.executor": "Run",
+    "Python.mathscode4.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/hello/PycharmProjects/Maths_PythonProj2"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\hello\PycharmProjects\Maths_PythonProj1" />
