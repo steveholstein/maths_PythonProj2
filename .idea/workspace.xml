@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="155cbc1e-6e17-49b7-ab08-414836b9f334" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Maths_PythonProj1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mathtest1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mathcode3_HTML1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mathcode4_latex1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mathcode4_latex1HTML.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mathcode5_latex2.py" afterDir="false" />
+    <list default="true" id="155cbc1e-6e17-49b7-ab08-414836b9f334" name="Changes" comment="maths formulas">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +107,28 @@
       <option name="presentableId" value="Default" />
       <updated>1714359270560</updated>
     </task>
+    <task id="LOCAL-00001" summary="maths formulas">
+      <option name="closed" value="true" />
+      <created>1714475185181</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714475185181</updated>
+    </task>
+    <task id="LOCAL-00002" summary="maths formulas">
+      <option name="closed" value="true" />
+      <created>1714475258609</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714475258609</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="maths formulas" />
+    <option name="LAST_COMMIT_MESSAGE" value="maths formulas" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
