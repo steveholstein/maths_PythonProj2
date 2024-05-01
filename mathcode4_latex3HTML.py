@@ -5,17 +5,26 @@ import webbrowser
 import sympy as sp
 import webbrowser
 
+# Define symbols and expressions
+x = sp.symbols('x')
+expression = sp.sin(x**2) + sp.cos(x)
+
+# Create unevaluated Integral object
+integral_expr = sp.Integral(expression, (x, 0, sp.pi))
+
+''''''
 # Define symbols
 x = sp.symbols('x')
 
 # Example expression - integral of sin(x^2)
 expression = sp.sin(x ** 2)
 integral_expression = sp.integrate(expression)
+''''''
 
 # Convert integral result into LaTeX string
 latex_integral_expression = sp.latex(integral_expression)
 
-# Create full HTML content with embedded MathJax-rendered LaTeX
+
 html_content = f"""
 <!DOCTYPE html>
 <html lang="en">
@@ -36,23 +45,18 @@ html_content = f"""
             justify-content: center; /* Center content horizontally */
             align-items: center;     /* Center content vertically */
         }}
-
+        
         .math-container {{
-            font-size: 2em;           /* Sets initial size, adjust as needed */
+            font-size: 5.5em;           /* Increased size by about 25% from initial value of '2em' */
+
+            /* Move container up by adjusting its position relative to its normal position */
+            position:relative;
+             top:100px ;                 /* Moves upwards approximately equivalent to around ~3 -4 lines depending on line-height.*/
+             transform :translateY(-20px);         /* Adjust this value if more fine-tuning needed.*/
+             transform :translateX(-80px);         /* Adjust this value if more fine-tuning needed.*/
+            
         }}
-
-        @media screen and (max-width: 768px) {{
-          .math-container {{ 
-              font-size: 1em;       /* Smaller text for smaller screens */
-          }}
-        }}
-
-         @media screen and (min-width: 769px) and (max-width :1024px){{
-             .math-container{{
-                 font-size :1.5em ;/* Medium Text Size For medium Screens*/
-             }}   
-         }}
-
+        
    </style>
 
 </head>
@@ -66,6 +70,7 @@ html_content = f"""
 </body>
 </html>
 """
+
 
 # Write html content into an html file.
 with open("integral_output.html", "w") as file:
