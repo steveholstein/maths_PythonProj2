@@ -12,17 +12,14 @@ expression = sp.sin(x**2) + sp.cos(x)
 # Create unevaluated Integral object
 integral_expr = sp.Integral(expression, (x, 0, sp.pi))
 
-''''''
-# Define symbols
-x = sp.symbols('x')
-
+""""
 # Example expression - integral of sin(x^2)
 expression = sp.sin(x ** 2)
 integral_expression = sp.integrate(expression)
-''''''
+"""
 
 # Convert integral result into LaTeX string
-latex_integral_expression = sp.latex(integral_expression)
+latex_integral_expression = sp.latex(integral_expr)
 
 
 html_content = f"""
@@ -34,6 +31,8 @@ html_content = f"""
     <!-- MathJax Configuration -->
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
 
     <!-- Custom Styles -->
     <style type="text/css">
@@ -56,11 +55,20 @@ html_content = f"""
              transform :translateX(-80px);         /* Adjust this value if more fine-tuning needed.*/
             
         }}
-        
+        h1 {{
+            font-size: 2.5em;
+            color: #333;
+            text-align: center;
+            position:relative;
+            top:-20px ;
+            transform :translateY(-20px);
+        }}
+     
    </style>
 
 </head>
 <body>
+
 
 <h1>Displaying Calculus Integration:</h1>
 
