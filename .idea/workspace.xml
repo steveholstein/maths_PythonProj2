@@ -15,6 +15,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/mathcode3_HTML1.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -24,29 +27,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Mathcode2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Mathcode3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Mathtest1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.mathcode3_HTML1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.mathcode4_latex1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.mathcode4_latex1HTML.executor&quot;: &quot;Run&quot;,
-    &quot;Python.mathcode4_latex2HTML.executor&quot;: &quot;Run&quot;,
-    &quot;Python.mathcode4_latex3HTML.executor&quot;: &quot;Run&quot;,
-    &quot;Python.mathscode4.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/hello/PycharmProjects/Maths_PythonProj2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Mathcode2.executor": "Run",
+    "Python.Mathcode3.executor": "Run",
+    "Python.Mathtest1.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.mathcode3_HTML1.executor": "Run",
+    "Python.mathcode4_latex1.executor": "Run",
+    "Python.mathcode4_latex1HTML.executor": "Run",
+    "Python.mathcode4_latex2HTML.executor": "Run",
+    "Python.mathcode4_latex3HTML.executor": "Run",
+    "Python.mathscode4.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/hello/PycharmProjects/Maths_PythonProj2",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\hello\PycharmProjects\Maths_PythonProj2" />
@@ -187,7 +191,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714626884211</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="maths formulas">
+      <option name="closed" value="true" />
+      <created>1714628410850</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1714628410850</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -201,6 +213,11 @@
         <entry key="73b19c66-c3b4-4503-a4ae-ac54a7935a18">
           <value>
             <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
               <option name="FILTERS">
                 <map>
                   <entry key="branch">
@@ -221,6 +238,11 @@
               </option>
               <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
             </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
           </value>
         </entry>
       </map>
