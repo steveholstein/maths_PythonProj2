@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="155cbc1e-6e17-49b7-ab08-414836b9f334" name="Changes" comment="maths formulas">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/integral_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/integral_output.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mathcode4_latex2HTML.py" beforeDir="false" afterPath="$PROJECT_DIR$/mathcode4_latex2HTML.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mathcode4_latex3HTML.py" beforeDir="false" afterPath="$PROJECT_DIR$/mathcode4_latex3HTML.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +179,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714564975700</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="maths formulas">
+      <option name="closed" value="true" />
+      <created>1714626884211</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1714626884211</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
