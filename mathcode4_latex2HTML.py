@@ -67,6 +67,8 @@ html_content = f"""
 </html>
 """
 
+
+
 # Write html content into an html file.
 with open("integral_output.html", "w") as file:
     file.write(html_content)
