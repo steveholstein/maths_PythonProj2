@@ -69,19 +69,17 @@ html_content = f"""
 
             /* Move container up by adjusting its position relative to its normal position */
             position:relative;
-             top:100px ;                 /* Moves upwards approximately equivalent to around ~3 -4 lines depending on line-height.*/
-             transform :translateY(-20px);         /* Adjust this value if more fine-tuning needed.*/
-             transform :translateX(-380px);         /* Adjust this value if more fine-tuning needed.*/
-            
+             top:0px ;                 /* Moves upwards approximately equivalent to around ~3 -4 lines depending on line-height.*/
+             transform :translateY(0px) translateX(0px);         /* Adjust this value if more fine-tuning needed.*/
+                      
         }}
         h1 {{
             font-size: 5.5em;
             color: #333;
-            text-align: left;
-            position:relative;
-            top:-200px ;
-            transform :translateY(-20px);
-            transform :translateX(10px);
+            text-align: centre;
+            position:absolute;
+            top:0px ;
+            transform :translateY(0px) transform :translateX(0px);                
         }}
      
    </style>
