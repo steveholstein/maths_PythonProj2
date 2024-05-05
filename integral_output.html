@@ -27,7 +27,7 @@
             /* Move container up by adjusting its position relative to its normal position */
             position:relative;
              top:0px ;                 /* Moves upwards approximately equivalent to around ~3 -4 lines depending on line-height.*/
-             transform :translateY(0px) translateX(0px);         /* Adjust this value if more fine-tuning needed.*/
+             transform :translateY(-100px) translateX(0px);         /* Adjust this value if more fine-tuning needed.*/
                       
         }
         h1 {
@@ -48,7 +48,7 @@
 <h1>Displaying Calculus Integration:</h1>
 
 <!-- Embedding Latex Code Directly with class for styling -->
-<div class="math-container">\(\int\limits_{0}^{\pi} \left(\sin{\left(x^{2} \right)} + \cos{\left(x \right)}\right)\, dx\)</div>
+<div class="math-container">\(\displaystyle\int_{0}^{\pi}\! \bigg(\sin{\left(x^{2} \right)} + \cos{\left(x \right)}\bigg) \mathrm{d}x\)</div>
 
 </body>
 </html>

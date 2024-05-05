@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="155cbc1e-6e17-49b7-ab08-414836b9f334" name="Changes" comment="maths formulas">
-      <change afterPath="$PROJECT_DIR$/mathcode4_latex3temptest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mathcode4_latex5sizeHTML.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/integral_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/integral_output.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mathcode4_latex3HTML.py" beforeDir="false" afterPath="$PROJECT_DIR$/mathcode4_latex3HTML.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mathcode4_latex4HTML.py" beforeDir="false" afterPath="$PROJECT_DIR$/mathcode4_latex4HTML.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +42,8 @@
     "Python.mathcode4_latex2HTML.executor": "Run",
     "Python.mathcode4_latex3HTML.executor": "Run",
     "Python.mathcode4_latex3temptest.executor": "Run",
+    "Python.mathcode4_latex4HTML.executor": "Run",
+    "Python.mathcode4_latex5sizeHTML.executor": "Run",
     "Python.mathscode4.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -219,7 +221,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714642134317</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="maths formulas">
+      <option name="closed" value="true" />
+      <created>1714889845262</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1714889845262</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

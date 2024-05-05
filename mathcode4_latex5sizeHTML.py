@@ -31,6 +31,7 @@ expression = sp.sin(x**2) + sp.cos(x)
 integral_expr = sp.Integral(expression, (x, 0, sp.pi))
 
 
+
 """
 # Example expression - integral of sin(x^2) ---this example is evaluated but not used here 
 expression = sp.sin(x ** 2)
@@ -39,6 +40,12 @@ integral_expression = sp.integrate(expression)
 
 # Convert integral result into LaTeX string
 latex_integral_expression = sp.latex(integral_expr)
+
+# Convert integral result into customized LaTeX string with a larger integral sign
+latex_integral_expression =  r"\displaystyle\int" + "_{" + \
+                            str(sp.latex(0)) + "}^{"+ str(sp.latex(sp.pi)) + "}"\
+                            r"\! \bigg(" + str(sp.latex(expression)) \
+                            + r"\bigg) \mathrm{d}"+ str(sp.latex(x))
 
 
 # prepare to screen print using HTML code
